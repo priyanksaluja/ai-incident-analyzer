@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-03-20T02:00:00",
+    "system": "TradeIngestion",
+    "level": "ERROR",
+    "message": "File ingestion failed for trades_20260320.csv"
+  },
+  {
+    "timestamp": "2026-03-20T02:05:00",
+    "system": "Reconciliation",
+    "level": "WARN",
+    "message": "Mismatch detected in portfolio P123"
+  },
+  {
+    "timestamp": "2026-03-20T02:10:00",
+    "system": "HoldingsEngine",
+    "level": "ERROR",
+    "message": "Null pointer exception while calculating holdings"
+  }
+]

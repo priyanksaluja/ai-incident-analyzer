@@ -1,0 +1,14 @@
+[
+  {
+    "id": "INC001",
+    "pattern": "file ingestion failed",
+    "root_cause": "Missing or corrupted trade file",
+    "resolution": "Re-upload file and re-run ingestion job"
+  },
+  {
+    "id": "INC002",
+    "pattern": "mismatch",
+    "root_cause": "Data inconsistency between systems",
+    "resolution": "Run reconciliation and validate upstream data"
+  }
+]
